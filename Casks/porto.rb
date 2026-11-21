@@ -2,8 +2,7 @@ cask "porto" do
   version "0.0.11-4e2b864"
   sha256 "66817871da79162ebe73e657905f01ba72b6978c7cc294a1de2721a41a753de4"
 
-  url "https://github.com/croissantsam/porto/releases/download/v#{version}/Porto-macos.zip",
-      verified: "github.com/croissantsam/porto/releases/download/"
+  url "https://github.com/croissantsam/porto/releases/download/v#{version}/Porto-macos.zip"
   name "Porto"
   desc "Menu bar app that lists your open TCP ports and lets you close them"
   homepage "https://github.com/croissantsam/porto"
@@ -14,7 +13,7 @@ cask "porto" do
     regex(/^v?(\d+(?:\.\d+)+(?:-\w+)?)$/i)
   end
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Porto.app"
 
