@@ -21,8 +21,8 @@ brew install --cask porto
 
 ## Updating casks
 
-Casks are bumped automatically by the `Update Homebrew tap` workflow in the
-upstream project whenever a release is published. To update one by hand:
+Casks are bumped automatically by the release workflow in the upstream
+project whenever a release is published. To update one by hand:
 
 ```bash
 brew bump-cask-pr porto
