@@ -1,8 +1,8 @@
 cask "puerto" do
-  version "0.0.17-07cb25c"
-  sha256 "f2f7faa60e4d7573a26620560e6e83bb1a5024548376fb7805e078681cb44a08"
+  version "0.0.19-05547cd"
+  sha256 "88e945c40bf053a59da52b7bad855464f95126a148b413f01033ce823332b9ed"
 
-  url "https://github.com/croissantsam/puerto/releases/download/v#{version}/Porto-macos.zip"
+  url "https://github.com/croissantsam/puerto/releases/download/v#{version}/Puerto-macos.zip"
   name "Puerto"
   desc "Menu bar app that lists your open TCP ports and lets you close them"
   homepage "https://github.com/croissantsam/puerto"
