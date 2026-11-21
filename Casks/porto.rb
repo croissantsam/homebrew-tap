@@ -1,6 +1,6 @@
 cask "porto" do
-  version "0.0.12-aa8f490"
-  sha256 "0d911f17bda28637918166c6183c2b6bbf8391bf06b5fa67e10dc97ad1b0335c"
+  version "0.0.14-7422e9d"
+  sha256 "c32ea55164de38ddf918a45f86b0ef166e008a1e1440bada3bd77215a2c187a3"
 
   url "https://github.com/croissantsam/porto/releases/download/v#{version}/Porto-macos.zip"
   name "Porto"
