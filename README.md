@@ -9,15 +9,15 @@ installed:
 
 ```bash
 brew tap croissantsam/tap
-brew trust --cask croissantsam/tap/porto
-brew install --cask porto
+brew trust --cask croissantsam/tap/puerto
+brew install --cask puerto
 ```
 
 ## Available casks
 
 | Cask | Description |
 |------|-------------|
-| [porto](Casks/porto.rb) | Menu bar app that lists your open TCP ports and lets you close them |
+| [puerto](Casks/puerto.rb) | Menu bar app that lists your open TCP ports and lets you close them |
 
 ## Updating casks
 
@@ -25,12 +25,12 @@ Casks are bumped automatically by the release workflow in the upstream
 project whenever a release is published. To update one by hand:
 
 ```bash
-brew bump-cask-pr porto
+brew bump-cask-pr puerto
 ```
 
 ## Notes
 
-Porto is not code-signed or notarized yet, so `brew audit --cask --new` reports
+Puerto is not code-signed or notarized yet, so `brew audit --cask --new` reports
 a signature failure. The cask removes the `com.apple.quarantine` attribute after
 Homebrew has verified the release checksum, so the app launches without a
 Gatekeeper warning.
