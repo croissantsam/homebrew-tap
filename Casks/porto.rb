@@ -1,6 +1,6 @@
 cask "porto" do
-  version "0.0.16-b191583"
-  sha256 "a1244bd686bcfa04aa3e97af7d1e0e2ae49a1392a94f6ad9d3afcfdc8df9dbad"
+  version "0.0.17-07cb25c"
+  sha256 "f2f7faa60e4d7573a26620560e6e83bb1a5024548376fb7805e078681cb44a08"
 
   url "https://github.com/croissantsam/porto/releases/download/v#{version}/Porto-macos.zip"
   name "Porto"
@@ -13,6 +13,8 @@ cask "porto" do
     regex(/^v?(\d+(?:\.\d+)+(?:-\w+)?)$/i)
   end
 
+  # Porto downloads and installs updates itself, so Homebrew shouldn't fight it.
+  auto_updates true
   depends_on macos: :monterey
 
   app "Porto.app"
