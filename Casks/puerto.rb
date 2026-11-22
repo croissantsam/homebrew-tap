@@ -1,6 +1,6 @@
 cask "puerto" do
-  version "0.0.24-737ede0"
-  sha256 "7d75def57fe8cc22001bca0ad6548b793f71ecd8f2b80f7d2babd8cfbd0da87a"
+  version "0.0.25-1e78d5a"
+  sha256 "3a95678292bddc1b4f22c11764b008c9bc880e40a80db7557c2d2f7af0f21130"
 
   url "https://github.com/croissantsam/puerto/releases/download/v#{version}/Puerto-macos.zip"
   name "Puerto"
